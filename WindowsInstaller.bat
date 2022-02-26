@@ -1,30 +1,24 @@
-@echo off
-title Windows App Installer
-echo Getting ready to install apps....
-
-
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-
-choco upgrade chocolatey -y
-choco install googlechrome -y
-choco install jdk8 -y
-choco install vlc -y
-choco install 7zip.install -y
-choco install conemu -y
-choco install python3 -y
-choco install sublimetext3 -y
-choco install golang -y
-choco install irfanview -y
-choco install irfanviewplugins -y
-choco install pip -y
-choco install everything -y
-choco install pycharm-community -y
-choco install revo.uninstaller -y --ignore-checksum
-choco install rufus.install -y
-choco install etcher -y
-choco install clover -y
-choco install teracopy -y
-choco install ditto -y
-choco install firefox -y
-choco install ccleaner -y
-choco install baretail -y
+winget install 7zip.7zip
+winget install Adobe.Acrobat.Reader.32-bit
+winget install flux.flux
+winget install Melvin-Abraham.Google-Assistant
+winget install Google.Chrome
+winget install Google.Drive
+winget install Google.EarthPro
+winget install Greenshot.Greenshot
+winget install SourceFoundry.HackFonts
+winget install DominikReichl.KeePass
+winget install Malwarebytes.Malwarebytes
+winget install Microsoft.VisualStudioCode
+winget install Mozilla.Firefox
+winget install Mozilla.Thunderbird.Beta
+winget install clsid2.mpc-hc
+winget install Notepad++.Notepad++
+winget install PrivateInternetAccess.PrivateInternetAccess
+winget install Telerik.Fiddler.Classic
+winget install Python.Python.3
+winget install c0re100.qBittorrent-Enhanced-Edition
+winget install SideQuestVR.SideQuest
+winget install Ookla.Speedtest
+winget install Twitch.Twitch
+winget install Microsoft.PowerToys
