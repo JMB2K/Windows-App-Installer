@@ -5,8 +5,6 @@ echo Installing Adobe Reader
 winget install Adobe.Acrobat.Reader.32-bit
 echo Installing flux
 winget install flux.flux
-rem echo Installing Google Assistant
-rem winget install Melvin-Abraham.Google-Assistant
 echo Installing Google Chrome
 winget install Google.Chrome
 echo Installing Google Drive
@@ -17,10 +15,6 @@ echo Installing Greenshot
 winget install Greenshot.Greenshot
 echo Installing HackFonts
 winget install SourceFoundry.HackFonts
-echo Installing KeePass
-winget install DominikReichl.KeePass
-rem echo Installing Malwarebytes
-rem winget install Malwarebytes.Malwarebytes
 echo Installingd Microsoft VS Code
 winget install Microsoft.VisualStudioCode
 echo Installing Mozilla Firefox
@@ -47,3 +41,5 @@ echo Installing Twitch
 winget install Twitch.Twitch
 echo Installing Microsoft PowerToys
 winget install Microsoft.PowerToys
+echo Installing BCUninstallere
+winget install Klocman.BulkCrapUninstaller
